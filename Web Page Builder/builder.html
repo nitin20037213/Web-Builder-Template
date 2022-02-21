@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    <title>Builder</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/builderstyle.css">
+    <script src="dist/buildermain.js"></script>
+    <style>
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .hr {
+            width: 100%;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top d-flex align-items-center">
+        <div class="container d-flex align-items-center justify-content-between">
+
+            <div class="logo">
+
+                <!--  image logo -->
+                <span><a href="index.html"><img src="assets/img/sym.jpg" class="img-fluid"></a></span>
+
+                <a href="about.html"><img src="assets/img/bc.jpg" class="img-fluid1"></a>
+
+                <h1 class="text-light"><a href="about.html">BlackCat_Productions</a></h1>
+
+            </div>
+
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a class="active" href="index.html">Home</a></li>
+                    <li><a href="templates.html" target="_blank">Templates</a></li>
+                    <li class="dropdown"><a href="#">About<i class="bi bi-chevron-down"></i></a>
+                        <ul>
+                            <li><a href="about.html">About us</a></li>
+                            <li><a href="team.html">Team</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav>
+            <!-- .navbar -->
+        </div>
+    </header>
+    <!-- End Header -->
+
+
+
+
+
+
+    <main id="main">
+
+        <!-- ======= Breadcrumbs ======= -->
+        <section id="breadcrumbs" class="breadcrumbs">
+            <div class="breadcrumb-hero">
+                <div class="container">
+                    <div class="breadcrumb-hero">
+                        <h2>Builder</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <ol>
+                    <li><a href="index.html">Home</a></li>
+                    <li>Builder</li>
+                </ol>
+            </div>
+            <hr class="hr" size="8">
+        </section>
+        <!-- End Breadcrumbs -->
+
+    </main>
+    <!-- End #main -->
+
+
+
+
+
+    <!-- ======= Builder Section ======= -->
+
+    <div id="gjs" style="height:0px; overflow:hidden;">
+        <div class="panel">
+            <h1 class="intro">Intro</h1>
+            <div class="title">
+
+                <span>Header</span>
+            </div>
+            <div class="description">
+                Demo Content !
+            </div>
+        </div>
+        <style>
+            .panel {
+                width: 100%;
+                max-width: 700px;
+                border-radius: 3px;
+                padding: 30px 20px;
+                margin: 150px auto 0px;
+                background-color: #1483eb;
+                box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.25);
+                color: rgba(255, 255, 255, 0.75);
+                font: caption;
+                font-weight: 100;
+            }
+            
+            .intro {
+                text-align: center;
+                font-weight: 100;
+                margin: 0px;
+                overflow: hidden;
+            }
+            
+            .title {
+                text-align: center;
+                font-size: 3.5rem;
+                margin: 15px 0;
+            }
+            
+            .description {
+                text-align: center;
+                font-size: 1rem;
+                line-height: 1.5rem;
+            }
+        </style>
+    </div>
+
+    <script type="text/javascript">
+        var editor = grapesjs.init({
+            showOffsets: 1,
+            noticeOnUnload: 0,
+            container: '#gjs',
+            height: '100%',
+            fromElement: true,
+            storageManager: {
+                autoload: 0
+            },
+            styleManager: {
+                sectors: [{
+                    name: 'General',
+                    open: false,
+                    buildProps: ['float', 'display', 'position', 'top', 'right', 'left', 'bottom']
+                }, {
+                    name: 'Flex',
+                    open: false,
+                    buildProps: ['flex-direction', 'flex-wrap', 'justify-content', 'align-items', 'align-content', 'order', 'flex-basis', 'flex-grow', 'flex-shrink', 'align-self']
+                }, {
+                    name: 'Dimension',
+                    open: false,
+                    buildProps: ['width', 'height', 'max-width', 'min-height', 'margin', 'padding'],
+                }, {
+                    name: 'Typography',
+                    open: false,
+                    buildProps: ['font-family', 'font-size', 'font-weight', 'letter-spacing', 'color', 'line-height', 'text-shadow'],
+                }, {
+                    name: 'Decorations',
+                    open: false,
+                    buildProps: ['border-radius-c', 'background-color', 'border-radius', 'border', 'box-shadow', 'background'],
+                }, {
+                    name: 'Extra',
+                    open: false,
+                    buildProps: ['transition', 'perspective', 'transform'],
+                }],
+            },
+        });
+
+        editor.BlockManager.add('testBlock', {
+            label: 'Block',
+            attributes: {
+                class: 'gjs-fonts gjs-f-b1'
+            },
+            content: `<div style="padding-top:50px; padding-bottom:50px; text-align:center">Test block</div>`
+        })
+    </script>
+
+
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-6 footer-info">
+                        <a href="about.html"><img src="assets/img/bc1.jpg" class="img-fluid1"></a>
+                        <h3>Web Builder</h3>
+                        <p>I have made this as a college project.</p>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Useful Links</h4>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="about.html">About us</a></li>
+                            <li><a href="privacy.html">Privacy policy</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-contact">
+                        <h4>Contact Me</h4>
+                        <p>
+                            Zakir B <br> Chandigarh University<br> India <br>
+                            <strong>Phone:</strong> +91 6230167569<br>
+                            <strong>Email:</strong> nitin@gmail.com<br>
+                        </p>
+
+                        <div class="social-links">
+
+                            <a href="https://www.instagram.com/the_nitin_thakur_/" class="instagram"><i
+              class="bi bi-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/nitin-thakur-0322151b1" class="linkedin"><i
+              class="bi bi-linkedin"></i></a>
+                        </div>
+
+                    </div>
+
+
+                    <div class="container">
+                        <div class="copyright">
+                            &copy; Copyright <strong><span>Website_Builder</span></strong>. All Rights Reserved
+                        </div>
+                        <div class="credits">
+
+                            Designed by <a href="about.html">NITIN THAKUR</a>
+                        </div>
+                    </div>
+
+                    <div id="sfcrzat5p8s98hxwqe7tla4qljlmuu871g8"></div>
+
+                    <div class="counter">
+                        <!-- End Builder Section -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </footer>
+    <!-- End Footer -->
+
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+  class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
+</body>
+
+</html>
